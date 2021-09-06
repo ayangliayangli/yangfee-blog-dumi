@@ -1,7 +1,10 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'Site Name',
+  title: 'yangfee 工具箱',
   mode: 'site',
-  // more config: https://d.umijs.org/config
+  // more config: https://d.umijs.org/config,
+  logo: '/images/icon-brand.svg',
+  favicon: '/images/icon-brand.svg',
+  locales: [['en-US', 'English']],
 });
